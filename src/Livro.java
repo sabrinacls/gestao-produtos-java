@@ -16,6 +16,7 @@ class Livro extends Produtos{
 
      @Override
      public void exibirDados(){
+        System.out.println("==== CATEGORIA: LIVRO ====");
         super.exibirDados();
          System.out.println("| Autor: " + autor);
      }
@@ -24,7 +25,7 @@ class Livro extends Produtos{
      public void desconto(){
         double novoPreco = getPreco() * 0.95;
         setPreco(novoPreco);
-        System.out.println("Desconto aplicado com sucesso!");
+        System.out.println("Desconto educacional aplicado com sucesso!");
         System.out.println("Novo preço: " + this.getPreco());
      }
  }

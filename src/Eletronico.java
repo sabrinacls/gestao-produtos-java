@@ -17,6 +17,7 @@
 
      @Override
      public void exibirDados() {
+         System.out.println("==== CATEGORIA: ELETRONICO ====");
          super.exibirDados();
          System.out.print("| Voltagem: "+voltagem+"v");
      }
