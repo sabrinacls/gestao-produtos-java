@@ -1,16 +1,17 @@
-# 📦 Sistema de Gestão de Produtos (Java POO)
+# ☕ Gestão de Produtos com POO
 
-Este projeto foi desenvolvido como um exercício prático para consolidar os fundamentos da **Programação Orientada a Objetos (POO)** em Java. O sistema simula um gerenciamento de inventário simples, lidando com diferentes tipos de produtos e regras de negócio específicas.
+Este projeto simples foi desenvolvido para praticar os primeiros conceitos de Programação Orientada a Objetos em Java, simulando um sistema de inventário simplificado.
 
-## 🚀 Conceitos Aplicados
+## 🎯 O que eu pratiquei aqui:
 
 O objetivo principal foi sair da teoria e aplicar os pilares de POO em um cenário real:
 
-* **Encapsulamento:** Todos os atributos (`nome`, `preco`, etc.) foram definidos como `private`, garantindo a proteção dos dados e o acesso exclusivo através de métodos **Getters e Setters**.
-* **Herança:** Utilizei uma classe base (`Produtos`) e subclasses especializadas (`Livro` e `Eletronico`) para demonstrar o reaproveitamento de código e a estrutura hierárquica.
-* **Polimorfismo:** Implementei a sobrescrita de métodos (`@Override`), permitindo que cada tipo de produto exiba suas informações de forma personalizada e aplique regras de desconto distintas (ex: desconto exclusivo para livros).
-* **Arrays:** Uso de arrays para armazenar e iterar sobre uma lista de objetos de diferentes tipos, tratando-os de forma genérica através da classe mãe.
-* **Construtores:** Uso de construtores personalizados e da palavra-chave `super()` para inicializar objetos das classes filhas corretamente.
+### 🚀 Conceitos Aplicados
+
+* **Herança e Reuso:** Organização de classes através de uma classe mãe (`Produtos`) e subclasses (`Livro` e `Eletronico`), utilizando `extends` e `super()` para evitar repetição de código.
+* **Encapsulamento:** Proteção de dados sensíveis com o uso de atributos `private`, garantindo que a manipulação ocorra apenas através de métodos **Getters e Setters**.
+* **Polimorfismo:** Implementação de comportamentos específicos para cada tipo de produto através da sobrescrita de métodos (`@Override`), permitindo que a lógica de descontos e exibição mude conforme o tipo do objeto.
+* **Arrays e Iteração:** Armazenamento de diferentes objetos em um único `Array` de Produtos, percorrendo a lista com foreach para processar os dados de forma dinâmica.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -21,9 +22,11 @@ O objetivo principal foi sair da teoria e aplicar os pilares de POO em um cenár
 ## 💻 Como rodar o projeto
 
 1.  Certifique-se de ter o JDK instalado em sua máquina.
-2.  Clone este repositório
+2.  Clone este repositório.
 3.  Abra o projeto em sua IDE de preferência.
 4.  Execute a classe `Main.java`.
 
+## 📸 Resultado no Console:
+
 ---
-Desenvolvido por **[Sabrina Clemente]** ✨
+Estudo realizado por **[Sabrina Clemente]** ✨
