@@ -27,6 +27,6 @@ O objetivo principal foi sair da teoria e aplicar os pilares de POO em um cenár
 4.  Execute a classe `Main.java`.
 
 ## 📸 Resultado no Console:
-! [Demonstração] (/.retorno-codigo.png)
+![Demonstração](./retorno-codigo.png)
 ---
-Estudo realizado por **[Sabrina Clemente]** ✨
+Estudo realizado por **Sabrina Clemente** ✨
