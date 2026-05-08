@@ -1,8 +1,8 @@
- class Eletronico extends Produtos {
+ class Luminaria extends Produtos {
 
     private int voltagem;
 
-    public Eletronico(String nome, double preco, int voltagem){
+    public Luminaria(String nome, double preco, int voltagem){
         super(nome, preco);
         this.voltagem = voltagem;
     }
@@ -17,7 +17,7 @@
 
      @Override
      public void exibirDados() {
-         System.out.println("==== CATEGORIA: ELETRONICO ====");
+         System.out.println("==== CATEGORIA: Luminaria ====");
          super.exibirDados();
          System.out.print("| Voltagem: "+voltagem+"v");
      }
